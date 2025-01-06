@@ -1,0 +1,398 @@
+{
+  "basics": {
+    "name": "Mathis Oudin",
+    "label": "Développeur Web | Etudiant BUT3 MMI",
+    "image": "/me_avatar.jpg",
+    "email": "mathis.oudin42@gmail.com",
+    "url": "",
+    "summary": "Junior Full Stack Developer with a passion for building web applications. Currently seeking opportunities to further develop my skills in a professional setting.",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "43000",
+      "city": "Le Puy-en-Velay",
+      "countryCode": "FR",
+      "region": "43000"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mathis-oudin-mmi",
+        "url": "https://linkedin.com/in/mathis-oudin-mmi"
+      },
+      {
+        "network": "GitHub",
+        "username": "grintzdel",
+        "url": "https://github.com/grintzdel"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Axome",
+      "position": "Stagiaire intégrateur Shopify",
+      "location_type": "Sur site",
+      "location": "Saint-Etienne, 42600",
+      "url": "https://axome.com",
+      "startDate": "2024-04-08",
+      "endDate": "2024-06-21",
+      "summary": "Stage de 10 semaines (avril à juin) chez Axome, agence web 360° spécialisée en e-commerce.",
+      "highlights": [
+        "Intégrer des sites e-commerce sur la plateforme Shopify"
+      ],
+      "responsibilities": [
+        "Intégrer de sites e-commerce sur la plateforme Shopify à partir de maquettes Figma.",
+        "Garantir une utilisation fluide sur mobile.",
+        "Travailler en collaboration avec d'autres développeurs et chef(fe)s de projet.",
+        "Utiliser des outils de collaboration, de communication et de gestion de projet."
+      ],
+      "achievements": [
+        "Pyrenex",
+        "La Boutique des Saucissons",
+        "Béal Planet",
+        "Laboratoire Garancia"
+      ],
+      "skills": [
+        "Node",
+        "Shopfiy",
+        "SCSS",
+        "Figma",
+        "Liquid",
+        "Swiper",
+        "GitHub"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Local Coding Club",
+      "position": "Volunteer",
+      "url": "https://codingclub.com/",
+      "startDate": "2021-01-01",
+      "endDate": "2022-01-01",
+      "summary": "Helped organize coding workshops and mentored new members.",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "BUT MMI",
+      "url": "https://uca.fr",
+      "area": "Métier de Multimédia et de l'Internet, parcours Développement web et dispositifs interactifs",
+      "studyType": "Bachelor Universitaire de Technologie",
+      "startDate": "2022-09-01",
+      "endDate": "2025-08-01",
+      "score": "3.8",
+      "courses": [
+        "CS101 - Introduction to Computer Science",
+        "CS102 - Data Structures"
+      ]
+    },
+    {
+      "institution": "BAC STI2D",
+      "url": "https://beauregard.ent.auvergnerhonealpes.fr/",
+      "area": "Sciences et Technologies de l'Industrie et du Développement Durables, spécialité SIN (Systèmes d'Information et Numérique)",
+      "studyType": "Baccalauréat",
+      "startDate": "2019-09-01",
+      "endDate": "2022-07-01",
+      "score": "3.9",
+      "courses": [
+        "SE201 - Advanced Software Development",
+        "SE202 - Software Architecture and Design"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Impress everyone with a 3D particle scene with Blender and Three.js",
+      "date": "2024",
+      "issuer": "Awwwards Academy",
+      "url": "https://www.awwwards.com/academy/course/impress-everyone-with-a-3d-particle-scene-starting-from-bad-models"
+    },
+    {
+      "name": "Building an immersive creative website from scratch without frameworks",
+      "date": "2023",
+      "issuer": "Awwwards Academy",
+      "url": "https://www.awwwards.com/academy/course/building-an-immersive-creative-website-from-scratch-without-frameworks"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Figma",
+      "level": "Expert",
+      "keywords": [
+        "Design",
+        "UI"
+      ]
+    },
+    {
+      "name": "Gitlab",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "SCSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Beginner",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Wordpress",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Symfony",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "GSAP",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Prismic",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "AI",
+        "Blockchain"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Machine Learning en PHP",
+      "isActive": true,
+      "description": "Projet de cours, reconnaissance d'images de chiffres par IA.",
+      "highlights": [
+        "POO PHP, Docker, Rubix-ML, Symfony",
+        "Environnement testable avec PHP Unit en TDD",
+        "Hébergé sur des serveurs VPS à l'aide de Coolify et Docker (username : chapat2024 | mdp : chapat2024)"
+      ],
+      "url": "https://sae501.maoudin.com",
+      "github": "https://github.com/grintzdel/SAE501_ia"
+    },
+    {
+      "name": "Application de gestion de matériel",
+      "isActive": false,
+      "description": "Application pour gérer le matériel d'une université.",
+      "highlights": [
+        "POO PHP, MariaDB, SCSS, Docker et GSAP",
+        "Création d'un mini-framework MVC type Symfony"
+      ],
+      "github": "https://github.com/grintzdel/gestion_materiel"
+    },
+    {
+      "name": "Béal Planet",
+      "isActive": true,
+      "description": "Développement du site Béal Planet avec Shopify.",
+      "highlights": [
+        "Thème Shopify 'Impact' customisé",
+        "JS, Liquid, SCSS et SwiperJs",
+        "Site fait à 98% par mes soins"
+      ],
+      "url": "https://beal-planet.com"
+    },
+    {
+      "name": "Laboratoire Garancia",
+      "isActive": true,
+      "description": "Refonte visuelle du site existant Shopify de Garancia.",
+      "highlights": [
+        "Correction des bugs CLS des carousels",
+        "JS, Liquid, SCSS, SwiperJs et API Shopify",
+        "Intégration de la page d'accueil et page collection produits"
+      ],
+      "url": "https://garancia-beauty.com"
+    }
+  ]
+}
