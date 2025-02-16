@@ -351,6 +351,17 @@
   ],
   "projects": [
     {
+      "name": "SaaS Gestion de Tickets Jira par IA",
+      "isActive": false,
+      "description": "Projet de fin d'année, EN COURS DE DEV.",
+      "highlights": [
+        "NextJS, Tailwindcss 5, Reactjs 19, Shadcn, Typescript, Docker, Symfony",
+        "Backend en Symfony et Frontend en NextJS",
+        "Solution IA destinée aux entreprises et agences, création d'un chatbot en fonction d'un formulaire et envoie des données sur Jira"
+      ],
+      "github": "https://github.com/grintzdel/ticks-app"
+    },
+    {
       "name": "Machine Learning en PHP",
       "isActive": true,
       "description": "Projet de cours, reconnaissance d'images de chiffres par IA.",
@@ -393,6 +404,28 @@
         "Intégration de la page d'accueil et page collection produits"
       ],
       "url": "https://garancia-beauty.com"
+    },
+    {
+      "name": "Le Château de Mons",
+      "isActive": false,
+      "description": "Site vitrine et guide audio sur Wordpress.",
+      "highlights": [
+        "Mise en place d'un blog et d'un guide audio via Wordpress et une application mobile en React Native",
+        "PHP, Docker, Wordpress, SCSS, React native, expo",
+        "Travail de cours, en groupe"
+      ],
+      "github": "https://gitlab.com/mathistlln43/wp-mons.git"
+    },
+    {
+      "name": "Interface media MMI",
+      "isActive": false,
+      "description": "Refonte du site 'Interface MMI'.",
+      "highlights": [
+        "Création de plugins personnalisés",
+        "PHP, Docker, Wordpress et SCSS",
+        "Travail de cours, par groupe"
+      ],
+      "github": "https://gitlab.com/interface-mmi/interface"
     }
   ]
 }
