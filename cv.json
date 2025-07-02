@@ -154,6 +154,12 @@
   ],
   "certificates": [
     {
+      "name": "Clean Architecture en TDD en Next.js et Nest.js",
+      "date": "2025",
+      "issuer": "Ancyr Academy, Anthony Cyrille",
+      "url": "https://ancyracademy.fr/clean-architecture"
+    },
+    {
       "name": "Impress everyone with a 3D particle scene with Blender and Three.js",
       "date": "2024",
       "issuer": "Awwwards Academy",
