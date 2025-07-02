@@ -9,10 +9,10 @@
     "theme": "default",
     "location": {
       "address": "",
-      "postalCode": "43000",
-      "city": "Le Puy-en-Velay",
-      "countryCode": "FR",
-      "region": "43000"
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
     },
     "profiles": [
       {
@@ -114,7 +114,7 @@
   ],
   "education": [
     {
-      "institution": "Mastère Lead Développeur Full-Stack",
+      "institution": "Mastère Lead Développeur Full-Stack | Lyon 2, 69002",
       "url": "https://www.eemi.com/formations/mastere-lead-developpeur-full-stack/",
       "area": "A la fois technique et managérial, conception et l‘implémentation d’applications",
       "studyType": "Mastère en école privée",
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "institution": "BUT MMI",
+      "institution": "BUT MMI | Puy-en-Velay, 43000",
       "url": "https://uca.fr",
       "area": "Métier de Multimédia et de l'Internet, parcours Développement web et dispositifs interactifs",
       "studyType": "Bachelor Universitaire de Technologie",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "institution": "BAC STI2D",
+      "institution": "BAC STI2D | Montbrison, 42600",
       "url": "https://beauregard.ent.auvergnerhonealpes.fr/",
       "area": "Sciences et Technologies de l'Industrie et du Développement Durables, spécialité SIN (Systèmes d'Information et Numérique)",
       "studyType": "Baccalauréat",
