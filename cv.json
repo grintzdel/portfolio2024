@@ -5,7 +5,7 @@
     "image": "/me_avatar.jpg",
     "email": "mathis.oudin42@gmail.com",
     "url": "",
-    "summary": "Etudiant en 3ème année de BUT MMI (Métiers du\nMultimédia et de l’Internet). À la recherche d’un stage de fin\nd’étude. Projets en cours : app mobile en react native\net app nextjs dockerisée type SaaS boostée avec de\nl’IA. Ayant une grande soif d’apprendre, je me forme et\nme perfectionne, en plus de mes études, à différentes\ntechnologies Frontend, Backend et également Devops\nsur Dyma.fr\n .",
+    "summary": "Ce que j’aime dans le développement, c’est créer des choses utiles, bien pensées et qui tiennent la route. Je prends le temps de soigner mon code, de réfléchir à l’architecture, et de m’améliorer constamment grâce aux principes du Software Craftsmanship. Les technologies évoluent vite, et ce qui m’anime, c’est de les explorer pour construire des projets durables, pas juste à la mode.",
     "theme": "default",
     "location": {
       "address": "",
@@ -28,6 +28,42 @@
     ]
   },
   "work": [
+    {
+      "name": "Beetrip",
+      "position": "Stagiaire développeur Full-Stack TypeScript",
+      "location_type": "En distanciel",
+      "location": "Lyon 3, 69003",
+      "url": "https://beetrip.pro",
+      "startDate": "2025-04-22",
+      "summary": "Stage de 16 semaines (avril à août) chez Beetrip, CRM en ligne pour les agences de voyage.",
+      "highlights": [
+        "Développement Full-Stack Node.js et Next.js en microservices"
+      ],
+      "responsibilities": [
+        "Comprendre la stack, technos utilisées et leur architecture.",
+        "Développement d'API REST en microservices Node.",
+        "Développement Frontend en Next.js avec MUI et Axios"
+      ],
+      "achievements": [
+        "Développer une API d'emailing avec broker Kafka.",
+        "Développer un éditeur WYSIWYG en React avec TipTap et son API",
+        "Développer une API pour la personnalisation des marques des agences.",
+        "Interface d'administration de la personnalisation des marques.",
+        "Page de maintenance"
+      ],
+      "skills": [
+        "Node",
+        "Fastify",
+        "TypeScript",
+        "React",
+        "MUI",
+        "Jest",
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Microservices"
+      ]
+    },
     {
       "name": "Axome",
       "position": "Stagiaire intégrateur Shopify",
@@ -78,12 +114,24 @@
   ],
   "education": [
     {
+      "institution": "Mastère Lead Développeur Full-Stack",
+      "url": "https://www.eemi.com/formations/mastere-lead-developpeur-full-stack/",
+      "area": "A la fois technique et managérial, conception et l‘implémentation d’applications",
+      "studyType": "Mastère en école privée",
+      "startDate": "2025-09-01",
+      "endDate": "2027-08-01",
+      "score": "3.8",
+      "courses": [
+        "CS101 - Introduction to Computer Science",
+        "CS102 - Data Structures"
+      ]
+    },
+    {
       "institution": "BUT MMI",
       "url": "https://uca.fr",
       "area": "Métier de Multimédia et de l'Internet, parcours Développement web et dispositifs interactifs",
       "studyType": "Bachelor Universitaire de Technologie",
       "startDate": "2022-09-01",
-      "endDate": "2025-08-01",
       "score": "3.8",
       "courses": [
         "CS101 - Introduction to Computer Science",
@@ -351,14 +399,28 @@
   ],
   "projects": [
     {
-      "name": "SaaS Gestion de Tickets Jira par IA",
-      "isActive": false,
-      "description": "Projet de fin d'année, EN COURS DE DEV.",
+      "name": "CRM pour agences de voyage",
+      "isActive": true,
+      "description": "Développement Full-Stack Node.js et Next.js en microservices",
       "highlights": [
-        "NextJS, Tailwindcss 5, Reactjs 19, Shadcn, Typescript, Docker, Symfony",
-        "Backend en Symfony et Frontend en NextJS",
+        "TypeScript,Node.js, Fastify, PostgreSQL, Jest, Docker, TypeORM",
+        "TypeScript, Next.js, MUI, Axios",
+        "Pipelines CI/CD Gitlab et Github Actions, Kubernetes",
+        "Architecture en microservices testés et dockerisés",
+        "Développement d'API et intégration en React"
+      ],
+      "url": "https://beetrip.pro"
+    },
+    {
+      "name": "SaaS d'acquisition de tickets Jira par IA",
+      "isActive": true,
+      "description": "Projet de fin d'année de BUT3 MMI",
+      "highlights": [
+        "Next.js, Tailwindcss 5, React 19, Shadcn, Typescript, Docker, Symfony",
+        "Backend en Symfony et Frontend en Next.js",
         "Solution IA destinée aux entreprises et agences, création d'un chatbot en fonction d'un formulaire et envoie des données sur Jira"
       ],
+      "url": "https://ticks.maoudin.com",
       "github": "https://github.com/grintzdel/ticks-app"
     },
     {
