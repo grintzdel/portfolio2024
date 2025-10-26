@@ -40,7 +40,7 @@
       ],
       "responsibilities": [
         "Analyser l'architecture présente",
-        "Développement d'API REST pour une webapp avec Nextjs en Clean architecture et DDD",
+        "Développement d'API REST pour une webapp avec Nestjs en Clean architecture et DDD",
         "Développement Frontend avec Next.js (Tanstack Query, Axios et Redux) en Hexa architecture"
       ],
       "achievements": [
