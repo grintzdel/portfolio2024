@@ -11,12 +11,12 @@ const { image, summary, url, theme } = basics;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
 		<title>{title}</title>
 		<meta name="description" content={summary} />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="preload" as="image" href={image} />
 
@@ -38,7 +38,11 @@ const { image, summary, url, theme } = basics;
 		<link rel="stylesheet" href="/themes/themes.css" />
 	</head>
 	<body data-theme={theme} class="relative bg-skin-fill">
-		<div class="absolute top-0 -z-10 h-full w-full print:hidden">
+		<!-- Skip to main content link for keyboard navigation -->
+		<a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-skin-button-accent focus:text-skin-inverted focus:rounded-md">
+			Aller au contenu principal
+		</a>
+		<div class="absolute top-0 -z-10 h-full w-full print:hidden" aria-hidden="true">
 			<div class="bg-skin-hue/10 absolute bottom-auto left-[20%] right-auto top-0 h-[200px] w-[200px] -translate-x-[30%] translate-y-[20%] rounded-full blur-[80px] invert-0 dark:bg-white/5"></div>
 		</div>
 		<slot />
@@ -51,6 +55,15 @@ const { image, summary, url, theme } = basics;
 
 			a {
 				text-decoration: none;
+			}
+
+			/* Enhanced keyboard focus styles for accessibility */
+			a:focus-visible,
+			button:focus-visible,
+			select:focus-visible,
+			input:focus-visible {
+				outline: 2px solid currentColor;
+				outline-offset: 2px;
 			}
 
 			ul {
@@ -100,6 +113,30 @@ const { image, summary, url, theme } = basics;
 			}
 			#hotkeypad [data-backdrop] {
 				@apply !bg-zinc-800 !opacity-80;
+			}
+
+			/* Screen reader only utility */
+			.sr-only {
+				position: absolute;
+				width: 1px;
+				height: 1px;
+				padding: 0;
+				margin: -1px;
+				overflow: hidden;
+				clip: rect(0, 0, 0, 0);
+				white-space: nowrap;
+				border-width: 0;
+			}
+
+			.focus\:not-sr-only:focus {
+				position: static;
+				width: auto;
+				height: auto;
+				padding: inherit;
+				margin: inherit;
+				overflow: visible;
+				clip: auto;
+				white-space: normal;
 			}
 
 			@media print {
